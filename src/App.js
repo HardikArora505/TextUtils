@@ -47,7 +47,6 @@ function App() {
 
           <Navbar title="TextUtils2" aboutText="aboutUs" mode={mode} toggleMode={toggleMode} />
           <Alert alert={alert} />
-          {/* <Navbar /> */}
           <div className="container">
             <Routes>
               <Route exact path="/about" element={<About />}>
